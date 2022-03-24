@@ -1,0 +1,52 @@
+#root {
+    border: 1px solid yellow;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.arrow {
+    border: 1px solid red;
+    width: 0;
+    height: 65px;
+    position: absolute;
+    top: 110px;
+    left: 105px;
+    transform-origin: 0 top;
+}
+
+.arrow-green {
+    height: 45px;
+    border: 1px solid green;
+}
+.arrow-yellow{
+    height: 75px;
+    border: 1px solid yellow;
+}
+
+.clock-number {
+    position: absolute;
+}
+
+#root2, #root3 {
+    border: 1px solid green;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+#root3 {
+    border: 1px solid red;
+}
+
+#el2, #el3 {
+  background: red;
+    width: 50px;
+    height: 50px;
+}
+
+#el3 {
+    background: yellow;
+
+}
