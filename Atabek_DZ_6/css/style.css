@@ -1,0 +1,122 @@
+
+.screen-main {
+    position: relative;
+    height: 100vh;
+    background: url('../images/main-screen__bgc.png') no-repeat center;
+    background-size: cover;
+}
+.screen-main .inner {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.screen-main h1 {
+    max-width: 920px;
+    margin-bottom: 50px;
+    font: 64px 'Roboto', sans-serif;
+    font-weight: bold;
+    line-height: 90px;
+    color: #fff;
+}
+.timer {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+}
+.timer-block {
+    width: 115px;
+    height: 115px;
+    padding: 20px;
+    background-color: #121212;
+    text-align: center;
+}
+.timer-block .num {
+    font: 36px 'Roboto', sans-serif;
+    font-weight: bold;
+    line-height: 50px;
+    color: #fff;
+}
+.timer-block .caption {
+    text-transform: capitalize;
+    color: #717171;
+}
+
+.timeline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #121212;
+    color: #717171;
+}
+.timeline-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 130px;
+}
+.timeline-inner .info {
+    width: 255px;
+}
+.timeline-inner .info-block {
+    display: flex;
+    justify-content: space-between;
+}
+.timeline-inner .info-block:first-child {
+    margin-bottom: 10px;
+}
+.timeline-inner .timeline-block {
+    width: 440px;
+}
+.timeline-block .top .text-white {
+    width: 71px;
+    height: 24px;
+    font-weight: bold;
+
+}
+
+.rectangle {
+    height: auto;
+    width: auto;
+
+}
+
+.rectangle .rectangle-white{
+    position: absolute;
+    width: 514px;
+    height: 6px;
+    background: #fff;
+}
+.rectangle .rectangle-red{
+    position: absolute;
+    width: 240px;
+    height: 6px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    z-index: 65;
+}
+.bottom .zero{
+    position: absolute;
+    width: 9px;
+    height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%
+
+}
+.bottom .million{
+    text-align: right;
+    position: absolute;
+    width: 515px;
+    height: 24px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+/* Псевдоклассы */
+/*:nth-child()*/
+/*:first-child*/
+/*:last-child*/

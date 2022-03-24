@@ -1,0 +1,71 @@
+.menu {
+    height: 64px;
+    background-color: transparent;
+    position: absolute;
+    top: 28px;
+    left: 0;
+    right: 0;
+    padding: 10px 80px;
+
+}
+.menu .logo img {
+    display: block;
+    width: 44px;
+}
+.menu .logo{
+    display: inline-block;
+}
+
+.menu-inner {
+    display: flex;
+    justify-content: space-between;
+    height: 44px;
+}
+
+.menu-inner .actions-ul {
+    display: flex;
+}
+
+.menu-inner .actions-link {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 0 18px;
+    height: 44px;
+    line-height: 44px;
+}
+.menu-inner .actions-li {
+    margin: 0 10px;
+}
+
+.menu-inner .right {
+    display: flex;
+}
+
+.last-line{
+    margin: 0;
+    padding: 0;
+    color: black;
+    box-sizing: border-box;
+    position: absolute;
+    width: 1920px;
+
+
+    background: black;
+}
+.last-line-inner .people {
+    position: absolute;
+    width: 251px;
+    height: 58px;
+    left: 562px;
+    top: 866px;
+}
+.last-line-inner .money {
+    position: absolute;
+    width: 714px;
+    height: 67px;
+    left: 894px;
+    top: 865px;
+}
+
+
