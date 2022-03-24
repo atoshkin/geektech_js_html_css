@@ -1,0 +1,20 @@
+from tkinter import  *
+import webbrowser
+
+main = Tk()
+main.geometry('360x620')
+main.title('Yandex')
+
+canva = Canvas(main)
+canva.pack()
+
+entry=Entry(canva,font=('Berlin sans fb',20))
+entry.pack()
+
+def search():
+    text = entry.get()
+    webbrowser.open('https://www.google.com/search?q='+text)
+button = Button (canva, text='Поиск',command=search)
+button.pack()
+
+main.mainloop()
